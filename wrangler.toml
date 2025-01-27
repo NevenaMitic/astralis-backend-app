@@ -1,0 +1,8 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "oai-astralis"
+  main = "src/index.ts"
+  compatibility_date = "2025-01-24"
+  [observability]
+enabled = true 
+  [ai]
+binding = "AI"
